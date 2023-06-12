@@ -3,7 +3,7 @@ import disnake
 
 from typing import Dict
 
-from discord.ext import commands
+from disnake.ext import commands
 from disnake.ext.ipc.server import Server
 from disnake.ext.ipc.objects import ClientPayload
 

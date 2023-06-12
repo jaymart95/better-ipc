@@ -3,7 +3,7 @@ Better IPC
 ~~~~~~~~~~
 
 High-performance inter-process communication 
-library designed to work with the latest version of discord.py
+library designed to work with the latest version of disnake.py
 
 :copyright: (C) 2022 DaPandaOfficial
 :license: GNU GENERAL PUBLIC LICENSE
@@ -11,7 +11,7 @@ library designed to work with the latest version of discord.py
 import disnake
 
 if disnake.version_info.major < 2:
-    raise RuntimeError("You must have discord.py (v2.0 or greater) to use this library.")
+    raise RuntimeError("You must have disnake.py (v2.0 or greater) to use this library.")
 
 __title__ = "better-ipc"
 __author__ = "DaPandaOfficial"
