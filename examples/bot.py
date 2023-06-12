@@ -1,15 +1,15 @@
 import asyncio
-import discord
+import disnake
 
 from typing import Dict
 
 from discord.ext import commands
-from discord.ext.ipc.server import Server
-from discord.ext.ipc.objects import ClientPayload
+from disnake.ext.ipc.server import Server
+from disnake.ext.ipc.objects import ClientPayload
 
 class MyBot(commands.Bot):
     def __init__(self) -> None:
-        intents = discord.Intents.all()
+        intents = disnake.Intents.all()
 
         super().__init__(
             command_prefix="$.",
@@ -29,3 +29,4 @@ class MyBot(commands.Bot):
 if __name__ == "__main__":
     bot = MyBot()
     asyncio.run(bot.start("TOKEN"))
+    asyncio.run(bot.setup_hook())
