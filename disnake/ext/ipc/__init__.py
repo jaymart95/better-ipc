@@ -8,6 +8,8 @@ library designed to work with the latest version of disnake.py
 :copyright: (C) 2022 DaPandaOfficial
 :license: GNU GENERAL PUBLIC LICENSE
 """
+import disnake
+
 __title__ = "better-ipc"
 __author__ = "DaPandaOfficial"
 __license__ = "GNU GENERAL PUBLIC LICENSE"
