@@ -8,11 +8,6 @@ library designed to work with the latest version of disnake.py
 :copyright: (C) 2022 DaPandaOfficial
 :license: GNU GENERAL PUBLIC LICENSE
 """
-import disnake
-
-if disnake.version_info.major < 2:
-    raise RuntimeError("You must have disnake.py (v2.0 or greater) to use this library.")
-
 __title__ = "better-ipc"
 __author__ = "DaPandaOfficial"
 __license__ = "GNU GENERAL PUBLIC LICENSE"
